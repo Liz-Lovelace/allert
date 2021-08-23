@@ -13,7 +13,7 @@ function delay(t){
 
 bot.launch();
 
-let inputFilePath = __dirname + '/input';
+let inputFilePath ='/input';
 async function watchInput(){
   while (true) {
     await delay(1000);
